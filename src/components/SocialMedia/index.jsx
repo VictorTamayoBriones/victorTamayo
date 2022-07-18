@@ -5,11 +5,17 @@ export const Social = () =>{
     return(
         <FiendMeOn>
             <SectionText>Find me on</SectionText>
-            <SocialNetworks>
-                <GitLogo/>
-                <InstaLogo/>
-                <MailLogo/>
-            </SocialNetworks>
+            <NavSocial/>
         </FiendMeOn>
+    )
+}
+
+export const NavSocial = () =>{
+    return(
+        <SocialNetworks>
+            <GitLogo/>
+            <InstaLogo/>
+            <MailLogo/>
+        </SocialNetworks>
     )
 }
