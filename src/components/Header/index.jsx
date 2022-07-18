@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Logo } from "../../styled-components/Logo"
 import { Head } from "./style"
 
@@ -6,11 +7,11 @@ export const Header = () => {
         <Head>
             <Logo/>
             <div>
-                <h1>Víctor Tamayo</h1>
+                <Link to="/"><h1>Víctor Tamayo</h1></Link>
                 <nav>
-                    <a href="">Home</a>
-                    <a href="">Projects</a>
-                    <a href="">About</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/about">About</Link>
                 </nav>
             </div>
         </Head>

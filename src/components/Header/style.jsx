@@ -6,6 +6,12 @@ export const Head = styled.header`
     height: 70px;
     margin: 70px 0;
     display: flex;
+    a{
+        text-decoration: none;
+    }
+    h1{
+        color: ${ theme.tealSea5 };
+    }
     div{
         margin-right: 10px;
         nav{

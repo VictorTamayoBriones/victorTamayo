@@ -13,9 +13,9 @@ export const Social = () =>{
 export const NavSocial = () =>{
     return(
         <SocialNetworks>
-            <GitLogo/>
-            <InstaLogo/>
-            <MailLogo/>
+            <a href='https://github.com/VictorTamayoBriones' ><GitLogo/></a>
+            <a href='https://www.instagram.com/victormanueltamayobtiones/' ><InstaLogo/></a>
+            <a href='/' ><MailLogo/></a>
         </SocialNetworks>
     )
 }
