@@ -34,8 +34,8 @@ export const Home = () =>{
                 <SectionTitle mb="30px" >University education</SectionTitle>
 
                 <SectionList>
-                    <SectionListItem>TSU. Desarrollo de software multiplataforma.</SectionListItem>
-                    <SectionListItem>ING. Desarrollo y gestión de software.</SectionListItem>
+                    <SectionListItem mb="30px" >TSU. Desarrollo de software multiplataforma.</SectionListItem>
+                    <SectionListItem >ING. Desarrollo y gestión de software.</SectionListItem>
                 </SectionList>
 
             </Section>

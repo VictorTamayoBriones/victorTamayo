@@ -6,10 +6,9 @@ export const FooterStyled = styled.footer`
     color: ${ theme.tealSea5 };
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
     padding: 8px;
     align-items: center;
-
     @media(max-width: 700px){
         font-size: 12px;
         svg{

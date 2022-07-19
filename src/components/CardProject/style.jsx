@@ -4,6 +4,7 @@ import { theme } from '../../theme';
 export const Card = styled.article`
     width: 48%;
     overflow: hidden;
+    margin-bottom: 40px;
     img{
         width: 100%;
     }
@@ -13,6 +14,10 @@ export const Card = styled.article`
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    @media(max-width: 700px){
+        width: 100%;
     }
 `;
 
