@@ -21,7 +21,7 @@ export const Head = styled.header`
                 padding: 0 10px 0 0;
                 color: ${ theme.tealSea5 };
                 text-decoration: none;
-                &:nth-child(1), &:nth-child(2){
+                &:nth-child(1){
                     border-right: solid 1px ${ theme.tealSea5 };
                 }
                 &:hover{
