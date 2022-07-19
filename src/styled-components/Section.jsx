@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {theme} from '../theme';
 
 export const Section = styled.section`
     width: 100%;
@@ -14,6 +15,12 @@ export const SectionTitle = styled.h2`
 export const SectionText = styled.p`
     letter-spacing: 1px;
     line-height: 23px;
+
+    .cv{
+        display: block;
+        color:${ theme.tealSea4 };
+        width: 100%;
+    }
 `;
 
 export const SectionList = styled.ul`

@@ -1,4 +1,4 @@
-import { NavSocial } from "../SocialMedia"
+import { NavSocial } from "../NavSocial"
 import { Copy, FooterStyled } from "./style"
 
 export const Footer = () => {

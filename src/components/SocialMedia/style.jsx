@@ -1,8 +1,4 @@
 import styled from 'styled-components';
-import { theme } from '../../theme';
-import { IconBrandGithub } from '@tabler/icons';
-import { IconBrandInstagram } from '@tabler/icons';
-import { IconMail } from '@tabler/icons';
 
 export const FiendMeOn = styled.div`
     width: 100%;
@@ -13,24 +9,7 @@ export const FiendMeOn = styled.div`
 
 export const SocialNetworks = styled.div`
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
+    position: relative;
 `;
-
-export const GitLogo = styled(IconBrandGithub)`
-    width: 25px;
-    height: 25px;
-    color: ${ theme.tealSea5 };
-`
-
-export const InstaLogo = styled(IconBrandInstagram)`
-    width: 25px;
-    height: 25px;
-    color: ${ theme.tealSea5 };
-`
-
-export const MailLogo = styled(IconMail)`
-    width: 25px;
-    height: 25px;
-    color: ${ theme.tealSea5 };
-`

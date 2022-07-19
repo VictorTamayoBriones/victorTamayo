@@ -1,3 +1,4 @@
+import CV from './cv.pdf';
 import { Social } from "../../components/SocialMedia"
 import { Section, SectionList, SectionListItem, SectionText, SectionTitle } from "../../styled-components/Section"
 
@@ -8,7 +9,8 @@ export const Home = () =>{
                 <SectionTitle>Hello World!</SectionTitle>
 
                 <SectionText>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis reprehenderit omnis voluptatem fugiat possimus, vitae veniam blanditiis tempora deleniti veritatis.
+                    My name is Víctor Tamayo i am a web developer so in love with front-end. I started to code in 2019 with JavaScript. I usually use react for my projects.
+                    <a className='cv' href={CV}>Download my CV.</a>
                 </SectionText>
 
                 <Social/>
