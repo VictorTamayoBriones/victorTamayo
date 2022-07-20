@@ -1,11 +1,22 @@
+import { useEffect, useState } from 'react';
 import { CardProject } from '../../components/CardProject';
+import { getAllProjects } from '../../firebase/getAllProjects';
 import { Section, SectionTitle } from '../../styled-components/Section';
 import { ProjectsList } from './style';
-import ProjectImg from '../../images/tlaxcarnivoras.png';
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 
 export const Projects = () =>{
-    const projectsList = useSelector(state => state.projects);
+    // const projectsList = useSelector(state => state.projects);
+    const[projectsList, setProjectsList]=useState([])
+
+    const getProjects = async () =>{
+        setProjectsList(await getAllProjects())
+    }
+
+    useEffect(()=>{
+        getProjects()
+    }, [])
+
     return(
         <Section>
             <SectionTitle mb='30px' >Projects</SectionTitle>
