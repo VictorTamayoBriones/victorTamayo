@@ -1,4 +1,4 @@
-import { GitLogo, InstaLogo, MailLogo } from "./style"
+import { GitLogo, InstaLogo, LinkedinLogo, MailLogo } from "./style"
 import { copyText } from "../../helpers/copyText";
 import { SocialNetworks } from "../SocialMedia/style";
 import { useRef, useState } from "react";
@@ -21,8 +21,9 @@ export const NavSocial = () =>{
 
     return(
         <SocialNetworks>
-            <a href='https://github.com/VictorTamayoBriones' ><GitLogo/></a>
-            <a href='https://www.instagram.com/victormanueltamayobtiones/' ><InstaLogo/></a>
+            <a href='https://github.com/VictorTamayoBriones'  target="_blanck" ><GitLogo/></a>
+            <a href="https://www.linkedin.com/in/v%C3%ADctor-manuel-tamayo-briones-9a8582159/" target="_blanck" ><LinkedinLogo/></a>
+            <a href='https://www.instagram.com/victormanueltamayobtiones/'  target="_blanck" ><InstaLogo/></a>
             <AlertCopyText active={alerCopyTextState} referencia={alertRef} />
             <MailLogo onClick={handleCopyMail}/>
         </SocialNetworks>

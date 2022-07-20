@@ -11,8 +11,8 @@ export const CardProject = ({img, title, desc, github, web}) =>{
                 <p>{desc}</p>
             </CardBody>
             <CardButtons>
-                <a href={github} ><GitLogo/></a>
-                <a href={web} ><WorldIcon/></a>
+                <a href={github} target="_blanck" ><GitLogo/></a>
+                <a href={web} target="_blanck" ><WorldIcon/></a>
             </CardButtons>
         </Card>
     )
