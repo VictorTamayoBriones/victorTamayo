@@ -21,9 +21,9 @@ export const NavSocial = () =>{
 
     return(
         <SocialNetworks>
-            <a href='https://github.com/VictorTamayoBriones'  target="_blanck" ><GitLogo/></a>
-            <a href="https://www.linkedin.com/in/v%C3%ADctor-manuel-tamayo-briones-9a8582159/" target="_blanck" ><LinkedinLogo/></a>
-            <a href='https://www.instagram.com/victormanueltamayobtiones/'  target="_blanck" ><InstaLogo/></a>
+            <GitLogo onClick={ ()=> window.open( 'https://github.com/VictorTamayoBriones' ,'_blank') || window.location.replace('https://github.com/VictorTamayoBriones') } />
+            <LinkedinLogo onClick={ ()=> window.open( 'https://www.linkedin.com/in/v%C3%ADctor-manuel-tamayo-briones-9a8582159/' ,'_blank') || window.location.replace('https://www.linkedin.com/in/v%C3%ADctor-manuel-tamayo-briones-9a8582159/') } />
+            <InstaLogo onClick={ ()=> window.open( 'https://www.instagram.com/victormanueltamayobtiones/' ,'_blank') || window.location.replace('https://www.instagram.com/victormanueltamayobtiones/') } />
             <AlertCopyText active={alerCopyTextState} referencia={alertRef} />
             <MailLogo onClick={handleCopyMail}/>
         </SocialNetworks>
