@@ -36,4 +36,14 @@ export const Head = styled.header`
             right: ${(props)=>props.x ? props.x : '10px'};   
         }
     }
+
+    @media(max-width: 377px){
+        h1{
+           font-size : 25px;
+           padding: 10px 20px;
+        }
+        nav{
+            padding: 10px 20px;
+        }
+    }
 `
